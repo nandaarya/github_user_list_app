@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:github_user_list_app/screen/main_screen.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 class SplashScreenPage extends StatelessWidget {
