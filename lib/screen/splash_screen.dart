@@ -8,8 +8,9 @@ class SplashScreenPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds: 3,
+      seconds: 2,
       navigateAfterSeconds: const MainScreen(),
+      backgroundColor: Colors.white,
       title: const Text(
         'Github User List App'
       ),
