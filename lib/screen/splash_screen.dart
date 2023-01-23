@@ -10,7 +10,7 @@ class SplashScreenPage extends StatelessWidget {
     return SplashScreen(
       seconds: 2,
       navigateAfterSeconds: const MainScreen(),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       title: const Text(
         'Github User List App'
       ),

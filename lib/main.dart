@@ -18,7 +18,12 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Column(
-
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text("User 1"),
+              Text("User 2"),
+              Text("User 3")
+            ],
           ),
         ),
       ),
